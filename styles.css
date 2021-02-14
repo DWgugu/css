@@ -7,7 +7,7 @@ body {
     margin-bottom: 2em;
 }
 
-.img-perfil-card {
+.img-card-perfil {
     display: flex;
     justify-content: center;
 }
@@ -19,7 +19,7 @@ body {
 .hr {
     height: 1px;
     background-color: black;
-    width: 30%;
+    width: 100%;
 }
 
 .card-image {
@@ -30,7 +30,7 @@ body {
 }
 
 .card-perfil {
-    background-color: #19DEF0 !important;
+    background-color: #05a158 !important;
     box-shadow:  0px 0px 5px #f5f5f5;
 }
 
@@ -47,7 +47,7 @@ body {
     color: #fff !important;
 }
 
-#btn-projeto {
+#btn-projetos {
     border: 2px solid black !important;
     border-radius: 20px;
     padding: 5px 25px;
@@ -92,8 +92,8 @@ padding: 10px;
 }
 
 @media (min-width: 900px) {
-    .container-linear {
-        background: linear-gradient(to left, #fff 60%, #19DEF0);
+    .container-linear {    
+    background: linear-gradient(to left, #fff 60%, #05a158 40%);
     }
 }
 
